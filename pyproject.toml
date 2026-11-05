@@ -1,0 +1,28 @@
+[project]
+name = "mcp-tut"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ayushmaheshwari-cyn", email = "ayushmaheshwari@cyntexa.com" }
+]
+requires-python = ">=3.14"
+# dependencies = [
+#     "fastmcp>=4.1.6",
+#     "langchain>=1.4.8",
+#     "langchain-mcp-adapters>=0.3.1",
+#     "mcp>=2.3.0",
+# ]
+dependencies = [
+    "fastmcp>=2.14.5,<3.0.0",
+    "langchain>=1.4.8",
+    "langchain-mcp-adapters==0.3.1",
+    "mcp>=1.28.0,<2.0.0",
+]
+
+[project.scripts]
+mcp-tut = "mcp_tut:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
