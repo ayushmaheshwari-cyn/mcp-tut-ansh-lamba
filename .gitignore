@@ -1,32 +1,32 @@
 
 # Virtual Environment
-.venv/
+mcp_tut_1/.venv/
 
 # Environment Variables / API Keys
-.env
+mcp_tut_1/.env
 
 # Python Cache
-__pycache__/
-*.py[cod]
+mcp_tut_1/__pycache__/
+mcp_tut_1/*.py[cod]
 
 # IDE
-.vscode/
-.idea/
+mcp_tut_1/.vscode/
+mcp_tut_1/.idea/
 
 # OS Files
-.DS_Store
-Thumbs.db
-Desktop.ini
+mcp_tut_1/.DS_Store
+mcp_tut_1/Thumbs.db
+mcp_tut_1/Desktop.ini
 
 # Logs
 *.log
 
 # Temporary Files
 *.tmp
-tmp/
-temp/
+mcp_tut_1/tmp/
+mcp_tut_1/temp/
 
 # Python Testing
-.pytest_cache/
-.coverage
-htmlcov/
+mcp_tut_1/.pytest_cache/
+mcp_tut_1/.coverage
+mcp_tut_1/htmlcov/
